@@ -1,0 +1,8 @@
+[target.armv7-unknown-linux-gnueabi]
+linker = "arm-linux-gnueabi-gcc"
+rustflags = ["-C", "target-feature=+crt-static"]
+
+# This lines are optional, just for save time of typing:
+# --target armv7-unknown-linux-gnueabi
+[build]
+target = "armv7-unknown-linux-gnueabi"
