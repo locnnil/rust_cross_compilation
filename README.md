@@ -76,6 +76,15 @@ rustflags = ["-C", "target-feature=+crt-static"]
 target = "armv7-unknown-linux-gnueabi"
 ```
 
+```bash
+# The building using cargo
+# cargo build --target <your-arch>
+$ cargo build --target armv7-unknown-linux-gnueabi
+
+# Or if you already config the arch in .cargo/config.toml
+$ cargo build
+```
+
 Uploading the binary to your target device and running it you will get:
 
 ![running-cross](https://prnt.sc/S9GhZhlb2Z1z "running")
