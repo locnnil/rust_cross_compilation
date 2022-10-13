@@ -76,5 +76,7 @@ rustflags = ["-C", "target-feature=+crt-static"]
 target = "armv7-unknown-linux-gnueabi"
 ```
 
+Uploading the binary to your target device and running it you will get:
 
+![running-cross](https://prnt.sc/S9GhZhlb2Z1z "running")
 
