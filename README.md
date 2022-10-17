@@ -128,7 +128,7 @@ rustflags = ["-C", "target-feature=+crt-static"]
 
 <br />
 
-## **Building and Running**
+## :checkered_flag: **Building and Running**
 
 ```bash
 # The building using cargo
