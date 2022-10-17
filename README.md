@@ -121,7 +121,7 @@ rustflags = ["-C", "target-feature=+crt-static"]
 
 # target config for Raspberry Pi Zero W
 [target.arm-unknown-linux-gnueabihf]
-linker = "~/rpi_tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"
+linker = "/home/lincoln/rpi_tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"
 rustflags = ["-C", "target-feature=+crt-static"]
 
 ```
